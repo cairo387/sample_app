@@ -16,6 +16,7 @@ class TodolistsController < ApplicationController
 
   #一覧画面の表示
   def index
+    puts "作成したキー #{ENV['SECRET_KEY']}"
     @lists = List.all
   end
 

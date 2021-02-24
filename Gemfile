@@ -48,6 +48,7 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'rubocop-airbnb'
 end
 
 group :test do
@@ -65,3 +66,5 @@ gem "refile", require: "refile/rails", github: 'manfe/refile'
 
 #MiniMagick:(サイズ調整など画像加工を行うgem)を追加
 gem "refile-mini_magick"
+
+gem 'dotenv-rails'
